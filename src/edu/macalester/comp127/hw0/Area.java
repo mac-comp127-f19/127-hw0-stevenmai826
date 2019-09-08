@@ -1,4 +1,5 @@
 package edu.macalester.comp127.hw0;
+import java.lang.Math;
 
 /**
  * @author Shilad Sen
@@ -11,7 +12,7 @@ public class Area {
      */
     public static double getSquareArea(double sideLength) {
         // TODO: replace me with the correct formula
-        return sideLength * 1.0 * 42 +13;
+        return Math.pow(sideLength, 2);
     }
 
     /**
@@ -21,7 +22,7 @@ public class Area {
      */
     public static double getCircleArea(double radius) {
         // TODO: replace me with the correct formula
-        return radius * 1.0;
+        return Math.PI * Math.pow(radius, 2);
     }
 
 }
